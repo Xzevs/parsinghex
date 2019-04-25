@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 
 public class Tetris extends JPanel {
 
+
     private static final long serialVersionUID = -8715353373678321308L;
 
     private final Point[][][] Tetraminos = {
@@ -76,6 +77,19 @@ public class Tetris extends JPanel {
     private final Color[] TetraminoColors={
             Color.CYAN, Color.BLACK, Color.ORANGE, Color.YELLOW,Color.GREEN,Color.PINK,Color.RED
     };
-    
+
+    private Point pieceOrigin;
+    private int currentPiece;
+    private int rotation;
+    private ArrayList <Integer> nextPieces =new ArrayList<Integer>();
+
+    private long score;
+    private Color [][] well;
+
+
+
+
+
+
 
     }
