@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.io.*;
-
+    /*
+        En kommentar är bra att ha
+     */
     public class Notepad {
         private JTextArea textArea1;
         private JButton saveButton;
@@ -8,7 +10,6 @@ import java.io.*;
         private JButton saveAsButton;
         private JButton button1;
         private JPanel NoTE17pad;
-
 
         public static void main(String[] args)  {
             JFrame frame = new JFrame("Notepad");
